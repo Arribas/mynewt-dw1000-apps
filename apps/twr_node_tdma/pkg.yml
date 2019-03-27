@@ -54,6 +54,7 @@ pkg.cflags:
     - "-fms-extensions"
     - "-DNRF52"
     - "-Wno-strict-aliasing"
+    - "-Werror=missing-braces"
 
 pkg.lflags:
     - "-lm"
